@@ -1,15 +1,8 @@
 # Starter for deploying [fast.ai](https://www.fast.ai) models on [Render](https://render.com)
+Sample app made using demo from fastai course. 
 
-This repo can be used as a starting point to deploy [fast.ai](https://github.com/fastai/fastai) models on Render.
+See https://fastai-v3.onrender.com for original example. Test it out with bear images!
 
-The sample app described here is up at https://fastai-v3.onrender.com. Test it out with bear images!
+Custom model built using fastai.vision to classify images of cutlery (i.e. spoons, knives or forks)
 
-You can test your changes locally by installing Docker and using the following command:
 
-```
-docker build -t fastai-v3 . && docker run --rm -it -p 5000:5000 fastai-v3
-```
-
-The guide for production deployment to Render is at https://course.fast.ai/deployment_render.html.
-
-Please use [Render's fast.ai forum thread](https://forums.fast.ai/t/deployment-platform-render/33953) for questions and support.
